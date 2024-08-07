@@ -1,0 +1,76 @@
+body {
+    font-family: cursive;
+    background-color: rgb(106, 90, 205);
+}
+
+#parent {
+    background-color: aliceblue;
+    width: 20%;
+    height: 40vh;
+    border-radius: 15px;
+    box-shadow: 0px 0px 6px 1px gray;
+}
+
+@media screen and (min-width:230px) and (max-width: 461px) {
+    #parent {
+        width: 40%;
+    }
+}
+
+#gparent {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+
+
+}
+
+#month {
+
+    height: 9vh;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    background-color: rgb(255, 69, 0);
+    color: white;
+    align-content: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#day {
+
+    height: 8vh;
+    text-align: center;
+    align-content: center;
+    color: gray;
+    font-size: larger;
+
+}
+
+#daydate {
+
+    height: 14vh;
+    align-content: center;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 900;
+}
+
+#year {
+
+    height: 7.5vh;
+    text-align: center;
+    align-content: center;
+    color: gray;
+    font-size: larger;
+
+}
+
+@media screen and (max-width:450px) {
+    #parent {
+        position: relative;
+        top: 90px;
+    }
+
+}
